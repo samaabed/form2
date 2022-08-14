@@ -1,0 +1,161 @@
+form{
+   
+    margin: auto;
+    width:80%;
+}
+
+.starting-para{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+[type='search']{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 50%;
+        padding: 10px;
+        border: #D3D3D3 1px solid;
+        box-sizing: border-box;
+       margin-bottom: 25px;
+      
+}
+
+form{
+    overflow: auto;
+    position: relative;
+   
+
+}
+
+
+.form-item-container{
+
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+
+.form-item-container:hover{
+    transform: scale(.95);
+}
+
+.form-item-container label{
+    display: inline-block;
+    width: 90%;
+    cursor: pointer;
+
+}
+
+input[type='checkbox']{
+
+    display: inline-block;
+    accent-color:gray;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+
+input[type='checkbox']:checked{
+    accent-color:#90ee90;
+}
+
+
+
+.form-item-container label{
+    color:gray;
+}
+
+
+
+i{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+.btn-container{
+    text-align: center;
+   
+}
+
+.btn-container button, .btn-container input{
+    margin: 20px 1px;
+   padding: 10px 40px;
+   transition: 1s;
+   cursor: pointer;
+   
+}
+
+.btn-container button{
+    background-color: #fff;
+    color: gray;
+    border: solid 1px #D3D3D3;
+    
+}
+
+.btn-container button:hover , .btn-container input:hover{
+    transform: scale(.9);
+    box-shadow: 2px 2px #D3D3D3 ;
+}
+
+.btn-container input{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(212,101,101,1) 50%, rgba(252,176,69,1) 100%);
+    border: solid 1px #D3D3D3;
+}
+
+input[type='search']{
+    cursor: pointer;
+}
+
+.close{
+    display: inline-block;
+    position: absolute;
+    top:2px;
+    right: 2px;
+    text-align: center;
+    width: 45px;
+    cursor: pointer;
+    
+}
+
+.close i, .close span{
+    color: gray;
+    transition: 1s;
+}
+
+.close:hover i{
+    color: black;
+}
+
+.close:hover span{
+    color: black;
+}
+
+
+.search-icon{
+    mask-image: url(../small-search-icon.png);
+    mask-size: 70%;
+
+}
+
+
+
+
+
